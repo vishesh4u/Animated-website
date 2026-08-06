@@ -1,1 +1,161 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+
+
+
+html,body{
+    height: 100vh;
+    width:100%;
+
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2vw 10vw;
+    justify-content: space-between;
+    
+}
+
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(3, 4, 4);
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page1 h1{
+    font-size: 8.5vh; 
+    text-transform: uppercase;
+    font-weight:1000;
+   line-height: 8.5vh;
+
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(11, 12, 12);
+
+}
+
+
+#page1 h1 svg{
+    height: 7vw;
+    width: 6.9vw;
+    background-color: #0A823E;
+    border-radius: 50%;
+}
+
+#page1 p{
+    text-align: center;
+    font-weight:400 ;
+    margin-top: 3vh;
+
+}
+#page1-something{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ #page1-something h4:nth-last-child(2){  /* 2 mean fromlast the second element */
+    border: none;
+    padding: 3px;
+}
+#page1-something h4{
+    font-weight: 400;
+    font-size: 1vw;
+    text-transform: lowercase;
+    margin-top: 1px;
+    padding: 5px 10px;
+    border:1px solid rgb(179, 176, 176);
+    border-radius: 50px;
+}
+
+.nav-part2 {
+    display: flex;
+    gap: 2vw;
+}
+
+.nav-part2 h4{
+    font-size: 0.75vw;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+nav:hover #nav-bottom{
+    height: 150%;
+    bottom: -150%;
+    background-color: red;
+
+}
+
+#nav-bottom{
+    height: 10%;
+    position: absolute;
+    width: 80%;
+    bottom: 0%;
+    border-bottom: 1px solid #dadada;
+    transition:all ease 0.65s ;
+    bottom: 0%;
+    border-bottom: 1px solid #dadada;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2vw 15vw;
+    padding-left: 18.5vw;
+    padding-top: 6vw;
+}
+
+.bottom-div {
+    /* background-color: red; */
+    margin-top: 2vw;
+    
+    
+}
+
+.bottom-div h5 span{
+    font-size: 0.75vw;
+    font-weight: 500;
+    display: inline-block;
+    opacity: 0;
+
+}
+
+.bottom-div h5{
+    /* background-color: red; */
+    margin-bottom: 0.4vw;
+    overflow: hidden;
+}
+
+nav button{
+background-color: #0A823E;
+display: flex;
+align-items: center;
+padding: 14px 20px;
+border-radius: 50px;
+border: none;
+font-size: 0.85vw ;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+nav button svg{
+    height: 0.8vw;
+    margin-left: 1.6vw;
+
+}
