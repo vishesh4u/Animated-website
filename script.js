@@ -17,3 +17,4 @@ nav.addEventListener("mouseenter",function(){
 //         ease: "power2.out"
 //     });
 // });
+// Work in progress because I am lazy today 
