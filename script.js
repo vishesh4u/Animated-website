@@ -3,7 +3,7 @@ function navAnimation(){
 
 nav.addEventListener("mouseenter",function(){
     var tl = gsap.timeline()
-
+//for green mark 😔 
     tl.to("#nav-bottom",{
         height:"21vh"
     });
