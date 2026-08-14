@@ -3,7 +3,7 @@ function navAnimation(){
 
 nav.addEventListener("mouseenter",function(){
     var tl = gsap.timeline()
-//delaying the task
+//delaying the task 😭😭
     tl.to("#nav-bottom",{
         height:"21vh"
     });
